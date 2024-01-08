@@ -1,0 +1,259 @@
+@media (max-width:1399.98px) {
+  footer .address {
+    padding-left: 210px;
+  }
+
+  .video_area .video_main {
+    height: 574px;
+  }
+}
+
+@media (max-width:1199.98px) {
+  .video_area .video_main {
+    height: 483px;
+  }
+
+  .video_area .video_title {
+    font-size: 26px;
+  }
+
+  .video_area .info .info_title {
+    font-size: 24px;
+  }
+
+  .order_btn {
+    font-size: 20px;
+  }
+
+  .faq_area_bg .section_title {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .pricing_area .section_title {
+    font-size: 26px;
+  }
+
+  .pricing_area .pricing_item .title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .pricing_area .pricing_item {
+    padding: 20px;
+  }
+
+  .pricing_area .pricing_item .price {
+    font-size: 32px;
+  }
+
+  .pricing_area .pricing_item .details {
+    font-size: 18px;
+  }
+
+  .order_form_area .section_title {
+    font-size: 26px;
+    line-height: 42px;
+  }
+
+  .order_form_area .form_main .form_title {
+    font-size: 20px;
+  }
+
+  .testimonial_area .section_title {
+    font-size: 26px;
+  }
+
+  .order_form_area .form_main .billing_details .form-check .course_title {
+    font-size: 18px;
+  }
+
+  footer .address {
+    padding-left: 70px;
+    margin-bottom: 10px;
+  }
+
+  footer .links {
+    padding-left: 70px;
+  }
+
+  .order_details {
+    padding-left: 0 !important;
+  }
+
+  .header_area .logo img {
+    width: 100px !important;
+  }
+
+  .invoice_area .invoice_main .order_summer ul {
+    flex-wrap: wrap;
+  }
+
+  .invoice_area .invoice_main .order_summer ul li {
+    position: relative;
+    width: 33%;
+    margin: 5px 0;
+  }
+
+  .invoice_area .invoice_main .order_summer ul li::before {
+    display: none;
+  }
+
+  .invoice_area .order_details {
+    padding-left: 30px !important;
+  }
+}
+
+
+@media (max-width:991.98px) {
+  .video_area .video_main {
+    height: 393px;
+  }
+
+  .order_details {
+    margin-top: 30px;
+  }
+
+  footer .address {
+    padding-left: 0px;
+    padding-right: 60px;
+    text-align: right;
+  }
+
+  footer .links {
+    padding-left: 0px;
+    padding-right: 60px;
+    text-align: right !important;
+  }
+}
+
+@media (max-width:767.98px) {
+  .video_area .video_title {
+    font-size: 24px;
+  }
+
+  .video_area .video_main {
+    height: 386px;
+  }
+
+  .video_area .info .info_title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .order_btn {
+    font-size: 18px;
+    padding: 15px 32px;
+  }
+
+  .faq_area_bg .section_title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .faq .faq-body .accordion-button {
+    font-size: 18px;
+    padding-right: 70px;
+  }
+
+  .pricing_area .section_title {
+    font-size: 24px;
+  }
+
+  .pricing_area .pricing_item .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .testimonial_area .section_title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .order_form_area .section_title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .order_form_area .form_main .btm_info .title {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  footer {
+    padding-bottom: 100px;
+  }
+
+  footer .links {
+    padding-left: 0px;
+    padding-right: 0;
+    text-align: center !important;
+  }
+
+  footer .address {
+    padding-left: 0px;
+    padding-right: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width:575.98px) {
+  .order_form_area .form_main .form {
+    padding: 14px;
+  }
+
+  .order_form_area .section_title {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 20px;
+  }
+
+  .order_form_area .section_title {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .video_area .video_main {
+    height: 290px;
+  }
+
+  .video_area .info .info_title {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .faq_area_bg .section_title {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .faq .faq-body .accordion-button {
+    font-size: 18px;
+    padding-right: 70px;
+    line-height: 26px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .faq .faq-body .accordion-button {
+    padding: 15px 15px;
+    font-size: 17px;
+    line-height: 26px;
+    padding-right: 75px;
+  }
+
+  .form-check label {
+    padding-right: 65px;
+  }
+
+  .invoice_area .invoice_main .top_info .title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .invoice_area .invoice_main .order_summer ul li {
+    width: 44%;
+  }
+}
