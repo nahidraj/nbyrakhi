@@ -897,3 +897,58 @@ footer .links ul li+li {
 }
 
 /* privacy policy area end */
+.messages_btn_area {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 9999;
+	/* overflow: hidden; */
+}
+
+.messages_btn_area .messages_btn_ {
+	width: 48px;
+	height: 48px;
+	background-color: var(--primary);
+	border-radius: 50%;
+	color: var(--white);
+	text-align: center;
+	line-height: 48px;
+	border: 0;
+	font-size: 18px;
+}
+
+.messages_btn_area .messages_options {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	transition: all 0.1s linear;
+}
+
+.messages_btn_area .messages_options button {
+	width: 48px;
+	height: 48px;
+	background-color: #49E670;
+	border-radius: 50%;
+	color: var(--white);
+	text-align: center;
+	line-height: 48px;
+	border: 0;
+	font-size: 18px;
+	margin-bottom: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.1s linear;
+}
+
+.messages_btn_area .messages_options button.call {
+	background-color: #0323E7;
+}
+
+.show.messages_options button {
+	visibility: visible;
+	opacity: 1;
+}
+.show.messages_options{
+bottom: 55px;
+}
